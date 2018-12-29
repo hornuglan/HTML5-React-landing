@@ -1,0 +1,30 @@
+{
+  "name": "html-react-landing",
+  "version": "1.0.0",
+  "description": "The first html-scss landin using React",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^9.4.3",
+    "gulp": "^4.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hornuglan/HTML5-React-landing.git"
+  },
+  "author": "hornuglan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hornuglan/HTML5-React-landing/issues"
+  },
+  "homepage": "https://github.com/hornuglan/HTML5-React-landing#readme"
+}
