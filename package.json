@@ -4,14 +4,6 @@
   "description": "The first html-scss landin using React",
   "main": "index.js",
   "dependencies": {
-    "autoprefixer": "^9.4.3",
-    "gulp": "^4.0.0",
-    "gulp-connect": "^5.7.0",
-    "gulp-csso": "^3.0.1",
-    "gulp-plumber": "^1.2.1",
-    "gulp-postcss": "^8.0.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
