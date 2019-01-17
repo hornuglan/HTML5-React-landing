@@ -1,5 +1,6 @@
 const path = require('path');
 const extractTextPlugin = require('extract-text-webpack-plugin');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 const react = require('react');
 const reactDOM = require('react-dom');
 
@@ -25,11 +26,23 @@ module.exports = {
           use: {
             loader: 'babel-loader'
           }
-        }
+        },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader'
+          }
+        ]
+      }
     ]
   },
 
   plugins: [
-    new extractTextPlugin('style.css')
+    new extractTextPlugin('style.css'),
+    new htmlWebpackPlugin({
+      template: "./src/index.html",
+      filename: "index.html"
+    })
   ]
 };
