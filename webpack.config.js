@@ -20,13 +20,23 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       },
-        {
+      /*{
+        test: /\.js$/,
+        exclude: [/node_modules/],
+        use: [{
+          loader: 'babel-loader',
+          options: {
+            presets: ['env', 'react']
+          }
+        }]
+      }*/
+       /* {
           test: /\.(js|jsx)$/,
             exclude: /node_modules/,
           use: {
             loader: 'babel-loader'
           }
-        },
+        },*/
       {
         test: /\.html$/,
         use: [
@@ -42,7 +52,7 @@ module.exports = {
     new extractTextPlugin('style.css'),
     new htmlWebpackPlugin({
       template: "./src/index.html",
-      filename: "index.html"
+      filename: "./src/index.html"
     })
   ]
 };
