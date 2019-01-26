@@ -1,3 +1,13 @@
-body {
-    background-color: red;
-}
+@import "scaffoldings";
+//@import "mixins";
+@import "variables";
+//@import "./blocks/copyright";
+@import "./blocks/nav";
+//@import "./blocks/page-footer";
+@import "./blocks/page-header";
+//@import "./blocks/portfolio";
+@import "./blocks/quote";
+//@import "./blocks/review";
+//@import "./blocks/skills";
+//@import "./blocks/social";
+@import "./blocks/title";
