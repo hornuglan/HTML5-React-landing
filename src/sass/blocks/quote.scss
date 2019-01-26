@@ -1,3 +1,10 @@
 .quote {
-    &__text
+    display: flex;
+    justify-content: center;
+    &__text {
+        text-align: center;
+        font-size: 23px;
+        font-style: italic;
+        line-height: 1.57;
+    }
 }
