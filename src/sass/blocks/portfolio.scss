@@ -1,4 +1,9 @@
 .portfolio {
-    &__title
-    &__main
+    &__title {
+        font-size: 23px;
+        font-style: italic;
+        line-height: 1.57;
+        color: $text-color;
+    }
+    &__main {}
 }
