@@ -37,22 +37,26 @@ module.exports = {
             loader: 'babel-loader'
           }
         },*/
-      {
+    /*  {
         test: /\.html$/,
+        exclude: [/node_modules/, require.resolve('./src/index.html')],
         use: [
           {
-            loader: 'html-loader'
+            loader: 'file-loader',
+            query: {
+              name: '[name].[ext]'
+            }
           }
         ]
-      }
+      }*/
     ]
   },
 
   plugins: [
     new extractTextPlugin('style.css'),
-    new htmlWebpackPlugin({
+   /* new htmlWebpackPlugin({
       template: "./src/index.html",
       filename: "./src/index.html"
-    })
+    })*/
   ]
 };
