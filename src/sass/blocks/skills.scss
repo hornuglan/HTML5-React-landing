@@ -1,5 +1,15 @@
 .skills {
-    &__title
-    &__list
-    &__item
+    background-color: $bg-color;
+    color: #ffffff;
+    &__title {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 1.95;
+    }
+    &__list {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 1.08;
+    }
+    &__item {}
 }
