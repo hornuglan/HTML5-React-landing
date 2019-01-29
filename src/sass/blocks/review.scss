@@ -5,6 +5,9 @@
         width: 137px;
         height: 141px;
         background-color: #ffffff;
+        background-image: url("/src/img/review-photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     &__title {
         display: flex;

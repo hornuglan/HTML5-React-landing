@@ -1,6 +1,7 @@
 .nav {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     &__item {
         font-size: 24px;
         font-weight: 300;
