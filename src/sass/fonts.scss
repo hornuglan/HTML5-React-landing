@@ -1,5 +1,41 @@
 @font-face {
+  font-family: "Arial";
+  src: local("Arial"),
+  url("../fonts/arial.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Arial Black";
   src: local("Arial Black Regular"),
-  url("../fonts/ArialBlack.ttf") format(".ttf");
+  url("../fonts/ArialBlack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Arial MT";
+  src: local("Arial MT"),
+  url("../fonts/ArialMT.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Regular"),
+  url("../fonts/BebasNeue.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cambria";
+  src: local("Cambria Regular"),
+  url("../fonts/Cambria.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica Regular"),
+  url("../fonts/Helvetica.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: local("PTSans Regular"),
+  url("../fonts/PTSans.ttf") format("truetype");
 }
