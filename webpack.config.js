@@ -20,6 +20,15 @@ module.exports = {
           use: ['css-loader', 'sass-loader']
         })
       },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "fonts/[name].[ext]",
+          },
+        },
+      },
       /*{
         test: /\.js$/,
         exclude: [/node_modules/],
