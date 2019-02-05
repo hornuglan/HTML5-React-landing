@@ -6,7 +6,7 @@
     &__symbol {
         opacity: 0.22;
         color: #404040;
-        font-family: "Arial Black", sans-serif;
+        font-family: "Arial Black";
         font-size: 101px;
         font-weight: 400;
         line-height: 0.36;
@@ -14,7 +14,7 @@
     &__text {
         color: $text-color;
         text-align: center;
-        font-family: cambria, sans-serif;
+        font-family: "Cambria";
         font-size: 23px;
         font-style: italic;
         line-height: 1.57;
