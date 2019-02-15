@@ -14,6 +14,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: "babel-loader"
+        },
+      },
+
+      {
         test: /\.scss$/,
         use: extractTextPlugin.extract({
           fallback: 'style-loader',
@@ -47,35 +55,6 @@ module.exports = {
           },
         },
       },
-      /*{
-        test: /\.js$/,
-        exclude: [/node_modules/],
-        use: [{
-          loader: 'babel-loader',
-          options: {
-            presets: ['env', 'react']
-          }
-        }]
-      }*/
-       /* {
-          test: /\.(js|jsx)$/,
-            exclude: /node_modules/,
-          use: {
-            loader: 'babel-loader'
-          }
-        },*/
-    /*  {
-        test: /\.html$/,
-        exclude: [/node_modules/, require.resolve('./src/index.html')],
-        use: [
-          {
-            loader: 'file-loader',
-            query: {
-              name: '[name].[ext]'
-            }
-          }
-        ]
-      }*/
     ]
   },
 

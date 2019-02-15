@@ -1,1 +1,144 @@
-body{min-width:320px;padding:0;margin:0;background-color:white;box-sizing:border-box;list-style:none}@font-face{font-family:"Arial";src:local("Arial"),url(fonts/arial.ttf) format("truetype")}@font-face{font-family:"Arial Black";src:local("Arial Black Regular"),url(fonts/ArialBlack.ttf) format("truetype")}@font-face{font-family:"Arial MT";src:local("Arial MT"),url(fonts/ArialMT.ttf) format("truetype")}@font-face{font-family:"Bebas Neue";src:local("Bebas Neue Regular"),url(fonts/BebasNeue.ttf) format("truetype")}@font-face{font-family:"Cambria";src:local("Cambria Regular"),url(fonts/Cambria.ttf) format("truetype")}@font-face{font-family:"Helvetica";src:local("Helvetica Regular"),url(fonts/Helvetica.ttf) format("truetype")}@font-face{font-family:"PTSans";src:local("PTSans Regular"),url(fonts/PTSans.ttf) format("truetype")}.nav{display:flex;justify-content:space-around;flex-wrap:wrap;font-family:"Helvetica"}.nav__item{font-size:24px;font-weight:300;line-height:1.13;cursor:pointer}.page-footer{display:none}.page-header{display:flex;flex-direction:column;width:100%;color:#404040}.portfolio__title{font-family:"Cambria";font-size:23px;font-style:italic;line-height:1.57;color:#404040}.quote{display:flex;flex-direction:column;justify-content:center;align-items:center}.quote__symbol{opacity:0.22;color:#404040;font-family:"Arial Black";font-size:101px;font-weight:400;line-height:0.36}.quote__text{color:#404040;text-align:center;font-family:"Cambria";font-size:23px;font-style:italic;line-height:1.57}.review{background-color:#d45e5e;color:#ffffff}.review__photo{width:137px;height:141px;background-color:#ffffff;background-image:url("/src/img/review-photo.jpg");background-repeat:no-repeat;background-size:cover}.review__title{display:flex;flex-direction:column}.review__name{font-family:"Cambria";font-size:29px;font-style:italic;line-height:1.24}.review__geotag{font-family:"PTSans";font-size:17px;font-weight:400;line-height:2.12}.review__body-text{font-family:"PTSans";font-size:15px;font-weight:400;line-height:1.33}.skills{background-color:#d45e5e;color:#ffffff}.skills__title{font-size:30px;font-weight:400;line-height:1.95}.skills__list{font-size:30px;font-weight:400;line-height:1.08}.social{background-color:#d45e5e}.title{display:flex;flex-direction:column;justify-content:flex-start;border-bottom:1px solid #d0d0d0}.title__text{margin-bottom:0;font-family:"Arial Black";font-size:37px;font-weight:400;line-height:0.51}.title__description{margin-bottom:0;font-family:"Arial MT";font-size:15px;font-weight:400;line-height:1.27}
+body {
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  box-sizing: border-box;
+  list-style: none; }
+
+@font-face {
+  font-family: "Arial";
+  src: local("Arial"), url(fonts/arial.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Arial Black";
+  src: local("Arial Black Regular"), url(fonts/ArialBlack.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Arial MT";
+  src: local("Arial MT"), url(fonts/ArialMT.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Regular"), url(fonts/BebasNeue.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Cambria";
+  src: local("Cambria Regular"), url(fonts/Cambria.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica Regular"), url(fonts/Helvetica.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "PTSans";
+  src: local("PTSans Regular"), url(fonts/PTSans.ttf) format("truetype"); }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Helvetica"; }
+  .nav__item {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.13;
+    cursor: pointer; }
+
+.page-footer {
+  display: none; }
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #404040; }
+
+.portfolio__title {
+  font-family: "Cambria";
+  font-size: 23px;
+  font-style: italic;
+  line-height: 1.57;
+  color: #404040; }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .quote__symbol {
+    opacity: 0.22;
+    color: #404040;
+    font-family: "Arial Black";
+    font-size: 101px;
+    font-weight: 400;
+    line-height: 0.36; }
+  .quote__text {
+    color: #404040;
+    text-align: center;
+    font-family: "Cambria";
+    font-size: 23px;
+    font-style: italic;
+    line-height: 1.57; }
+
+.review {
+  background-color: #d45e5e;
+  color: #ffffff; }
+  .review__photo {
+    width: 137px;
+    height: 141px;
+    background-color: #ffffff;
+    background-image: url("/src/img/review-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .review__title {
+    display: flex;
+    flex-direction: column; }
+  .review__name {
+    font-family: "Cambria";
+    font-size: 29px;
+    font-style: italic;
+    line-height: 1.24; }
+  .review__geotag {
+    font-family: "PTSans";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2.12; }
+  .review__body-text {
+    font-family: "PTSans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33; }
+
+.skills {
+  background-color: #d45e5e;
+  color: #ffffff; }
+  .skills__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.95; }
+  .skills__list {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.08; }
+
+.social {
+  background-color: #d45e5e; }
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-bottom: 1px solid #d0d0d0; }
+  .title__text {
+    margin-bottom: 0;
+    font-family: "Arial Black";
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 0.51; }
+  .title__description {
+    margin-bottom: 0;
+    font-family: "Arial MT";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.27; }
