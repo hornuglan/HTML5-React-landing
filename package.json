@@ -31,10 +31,10 @@
     "webpack-cli": "^3.2.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development",
-    "build": "webpack -p",
     "watch": "webpack --watch",
-    "test": "npm test"
+    "test": "npm test",
+    "start": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
